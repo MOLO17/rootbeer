@@ -9,6 +9,9 @@ public final class Const {
         throw new InstantiationException("This class is not for instantiation");
     }
 
+    public static final String BINARY_SU = "su";
+    public static final String BINARY_BUSYBOX = "busybox";
+
     public static final String[] knownRootAppsPackages = {
             "com.noshufou.android.su",
             "com.noshufou.android.su.elite",
@@ -54,9 +57,9 @@ public final class Const {
             "/system/sd/xbin/",
             "/system/usr/we-need-root/",
             "/system/xbin/",
-            "/cache",
-            "/data",
-            "/dev"
+            "/cache/",
+            "/data/",
+            "/dev/"
     };
 
 
@@ -66,9 +69,9 @@ public final class Const {
             "/system/sbin",
             "/system/xbin",
             "/vendor/bin",
-            //"/sys",
             "/sbin",
             "/etc",
+            //"/sys",
             //"/proc",
             //"/dev"
     };
